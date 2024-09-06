@@ -44,7 +44,7 @@ public class UI_TestingOnFirefox {
 			
 			TakesScreenshot screenshot = (TakesScreenshot) driver;
 			File srcFile = screenshot.getScreenshotAs(OutputType.FILE);
-			File destFile = new File("./DeskTop/1920x1080/Screenshot/05-09-2024/" + fileNames[i]);
+			File destFile = new File("./DeskTop/1920x1080/Screenshot/06-09-2024;10-00 pm/" + fileNames[i]);
 			FileHandler.copy(srcFile, destFile);
 
 			Thread.sleep(2000);
@@ -59,7 +59,7 @@ public class UI_TestingOnFirefox {
 		
 			TakesScreenshot screenshot = (TakesScreenshot) driver;
 			File srcFile = screenshot.getScreenshotAs(OutputType.FILE);
-			File destFile = new File("./DeskTop/1366x768/Screenshot/05-09-2024/" + fileNames[i]);
+			File destFile = new File("./DeskTop/1366x768/Screenshot/07-09-2024;00-40am/" + fileNames[i]);
 			FileHandler.copy(srcFile, destFile);
 
 			Thread.sleep(2000);
@@ -74,7 +74,7 @@ public class UI_TestingOnFirefox {
 			
 			TakesScreenshot screenshot = (TakesScreenshot) driver;
 			File srcFile = screenshot.getScreenshotAs(OutputType.FILE);
-			File destFile = new File("./DeskTop/1536x864/Screenshot/05-09-2024/" + fileNames[i]);
+			File destFile = new File("./DeskTop/1536x864/Screenshot/06-09-2024;08-00pm/" + fileNames[i]);
 			FileHandler.copy(srcFile, destFile);
 
 			Thread.sleep(2000);
