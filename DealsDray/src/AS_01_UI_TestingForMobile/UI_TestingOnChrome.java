@@ -41,7 +41,7 @@ public class UI_TestingOnChrome {
           
             TakesScreenshot screenshot = (TakesScreenshot) driver;
             File srcFile = screenshot.getScreenshotAs(OutputType.FILE);
-            File destFile = new File("./Mobile/360x640/Screenshot/05-09-2024/" + fileNames[i]);
+            File destFile = new File("./Mobile/360x640/Screenshot/06-09-2024/" + fileNames[i]);
             FileHandler.copy(srcFile, destFile);
 
             Thread.sleep(2000);
@@ -56,7 +56,7 @@ public class UI_TestingOnChrome {
            
             TakesScreenshot screenshot = (TakesScreenshot) driver;
             File srcFile = screenshot.getScreenshotAs(OutputType.FILE);
-            File destFile = new File("./Mobile/375x667/Screenshot/05-09-2024/" + fileNames[i]);
+            File destFile = new File("./Mobile/375x667/Screenshot/06-09-2024/" + fileNames[i]);
             FileHandler.copy(srcFile, destFile);
 
             Thread.sleep(2000);
@@ -71,7 +71,7 @@ public class UI_TestingOnChrome {
              
             TakesScreenshot screenshot = (TakesScreenshot) driver;
             File srcFile = screenshot.getScreenshotAs(OutputType.FILE);
-            File destFile = new File("./Mobile/414x896/Screenshot/05-09-2024/" + fileNames[i]);
+            File destFile = new File("./Mobile/414x896/Screenshot/06-09-2024/" + fileNames[i]);
             FileHandler.copy(srcFile, destFile);
 
             Thread.sleep(2000);
